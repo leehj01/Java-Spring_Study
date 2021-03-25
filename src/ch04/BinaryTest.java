@@ -1,5 +1,5 @@
 package ch04;
-
+// 2 진수, 8진수, 16진수를 프로그램에서 사용하는 예제
 public class BinaryTest {
     public static void main(String[] args) {
         int num = 10;
