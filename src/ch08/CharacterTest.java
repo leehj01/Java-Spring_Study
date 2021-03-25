@@ -14,7 +14,6 @@ public class CharacterTest {
         System.out.println((int)ch2);
 
         int ch3 = 67;
-        System.out.println(ch3);
         System.out.println((char)ch3);
 
         //char ch4 = -66; 음수는 대입할 수 없음
