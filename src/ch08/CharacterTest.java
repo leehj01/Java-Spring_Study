@@ -11,6 +11,7 @@ public class CharacterTest {
 
         char ch2 = 66;
         System.out.println(ch2);
+        System.out.println((int)ch2);
 
         int ch3 = 67;
         System.out.println(ch3);
