@@ -1,6 +1,6 @@
 package ch13;
 
-import java.util.Scanner;
+import java.util.Scanner; // input 을 받게 하는 아이
 
 public class ConditionTest {
     public static void main(String[] args) {
