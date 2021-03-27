@@ -6,7 +6,8 @@ public class ForTest {
         int count = 1;
         int sum = 0;
 
-        for (int i = 0; i > 10; i++, count++) { // 10 번
+        for (int i = 0; i < 10; i++, count++) { // 10 번을 반복한다는 의미
+            // for ( int i = 0 , count = 1 ; i < 10 , i++ , count++ )
             sum += count;
             //count++
         }
