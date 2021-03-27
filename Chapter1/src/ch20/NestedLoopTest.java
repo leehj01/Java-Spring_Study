@@ -10,7 +10,7 @@ public class NestedLoopTest {
             for (count = 1; count <= 9; count++){
                 System.out.println( dan + "x" + count + "=" + dan * count );
             }
-            System.out.println();
+            System.out.println(); // 한줄 띄기 위해서 그냥 빈 프린트를 넣어줌
         }
 
         dan = 2 ;
