@@ -1,6 +1,6 @@
 # Java_Study
 
-FastCampus ``
+FastCampus `한번에 끝내는 Java/Spring 웹 개발 마스터 초격차 패키지 Online`
 강의를 듣고 정리한 코드입니다.
 
 ### 목차
@@ -9,7 +9,7 @@ FastCampus ``
 **CHAPTER2** 
 객체지향 프로그래밍 </br>
 **CHAPTER3**
-Intelli˚J 가이드 </br>
+IntelliJ 가이드 </br>
 **CHAPTER4**
 스프링 인문 </br>
 **CHAPTER5**
