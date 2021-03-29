@@ -13,7 +13,7 @@ public class MakeReport {
     }
 
     private void generateBody(){
-        buffer.append("james \t");
+        buffer.append("james \t"); // append : 이어주는 아이
         buffer.append("seoul korea \t");
         buffer.append("010-2032-3333 \n");
 
