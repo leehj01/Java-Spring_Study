@@ -19,17 +19,21 @@ public class CustomerTest {
         customerList.add(customerP);
         customerList.add(customerK);
 
-        System.out.println(" ====== 고객 정보 출력 ========");
-        for ( Customer customer : customerList ){
-            System.out.println(customer.showCustomerInfo());
-        }
-
-        System.out.println(" ====== 할인율과 보너스 포인트 계산 ========");
-        int price = 10000;
-        for ( Customer customer : customerList){
-            int cost = customer.calcPrice(price);
-            System.out.println(customer.getCustomerName() + "님이" + cost + "원 지불하셨습니다.");
-            System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트는 " + customer.bounsPoint + "입니다.");
+//        System.out.println(" ====== 고객 정보 출력 ========");
+//        for ( Customer customer : customerList ){
+//            System.out.println(customer.showCustomerInfo());
+//        }
+//
+//        System.out.println(" ====== 할인율과 보너스 포인트 계산 ========");
+//        int price = 10000;
+//        for ( Customer customer : customerList){
+//            int cost = customer.calcPrice(price);
+//            System.out.println(customer.getCustomerName() + "님이" + cost + "원 지불하셨습니다.");
+//            System.out.println(customer.getCustomerName() + "님의 현재 보너스 포인트는 " + customer.bounsPoint + "입니다.");
+//        }
+        if ( customerE instanceof GoldCustomer) {  // 원래의 인스턴스 형이 맞는지 체크하는 것
+            GoldCustomer vc = (GoldCustomer) customerE; // 원래 골드인데 vip로 할수 없어서 에러 발생
+            System.out.println(customerE.showCustomerInfo());
         }
     }
 }
