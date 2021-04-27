@@ -14,7 +14,14 @@ FastCampus `한번에 끝내는 Java/Spring 웹 개발 마스터 초격차 패�
 **CHAPTER7** 인터페이스를 활용한 학점 산출 프로그램 만들기 </br>
 **CHAPTER8** 자바를 활용한 알고리즘 문제 </br>
 
-**CHAPTER9** IntelliJ 가이드 </br>
-**CHAPTER4** 스프링 인문 </br>
-**CHAPTER5** 안정적인 서비스를 위한 스프링 DATA와 Security </br>
-**CHAPTER6** 대규모 서비스를 위한 스프링 Cloud와 Batch
+### 2. IntelliJ 가이드 </br>
+**CHAPTER1** 
+
+### 3. 스프링 입문
+**CHAPTER1**  </br>
+**CHAPTER2**  </br>
+**CHAPTER3** 
+
+### 4. 안정적인 서비스를 위한 스프링 DATA와 Security
+
+### 5. 대규모 서비스를 위한 스프링 Cloud와 Batch
