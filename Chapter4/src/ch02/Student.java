@@ -1,6 +1,6 @@
 package ch02;
 
-public class Student {
+public class Student implements Cloneable{
 
     private int studentId;
     private String studentName;
@@ -10,8 +10,12 @@ public class Student {
         this.studentName = studentName;
     }
 
+    public void setStudentName(String name){
+        this.studentName = name;
+    }
+
     public String toString(){
-        return studentName + "," + studentName;
+        return studentId + "," + studentName;
     }
 
     @Override
@@ -27,8 +31,11 @@ public class Student {
     }
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return studentId;
     }
 
-
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
